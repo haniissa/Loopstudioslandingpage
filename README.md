@@ -5,7 +5,7 @@ This is a solution to the [Loopstudios landing page challenge on Frontend Mentor
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
+  - [The challenge](https://www.frontendmentor.io/challenges/loopstudios-landing-page-N88J5Onjw/hub/loopstudios-landing-page-5XA_1YBIo)
   - [Screenshot](#screenshot)
   <!-- - [Links](#links) -->
 <!-- - [My process](#my-process) -->
