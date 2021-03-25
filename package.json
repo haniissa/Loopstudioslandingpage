@@ -1,0 +1,26 @@
+{
+  "name": "loopstudios-landing-page-main",
+  "version": "1.0.0",
+  "description": "![Design preview for the Loopstudios landing page coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "serve": "cross-env NODE_ENV=development concurrently \"postcss  src/css/style.css -o src/css/output.css --watch\"  \"live-server loopstudios-landing-page-main\"",
+    "development": "cross-env NODE_ENV=development concurrently postcss  src/css/style.css -o src/css/output.css ",
+    "production": "cross-env NODE_ENV=production postcss src/css/style.css -o src/css/output.css",
+    "start": "npm run serve"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^6.0.0",
+    "tailwindcss": "^2.0.3"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^4.0.2",
+    "autoprefixer": "^10.2.5",
+    "cross-env": "^7.0.3",
+    "cssnano": "^4.1.10",
+    "live-server": "^1.2.1",
+    "postcss-cli": "^8.3.1"
+  }
+}

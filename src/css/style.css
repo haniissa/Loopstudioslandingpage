@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@responsive{
+	.text-in-picture{
+		top: 45%;
+	}
+	.text-in-picture-small{
+		top: 65%;
+	    left: 0%;
+	}
+	.text-in-picture-md{
+		top: 75%;
+	    left: 0%;
+	}
+	.text-in-picture-xl{
+		top: 80%;
+	    left: 0%;
+	}
+	.right{
+		padding-left: 10%
+	}
+}
+
+.hights{
+	height: 40rem;
+	/* background-position:center; */
+}
+.ul-li li a{
+  position: relative;
+}
+.ul-li li a::before{
+  content: "";
+  position: absolute;
+  background-color: white;
+  left: 0;
+  top: 25px;
+  height: 2px;
+  width: 100%;
+  transition:  0.5s;
+  visibility: hidden;
+  transform: scaleX(0)
+}
+.ul-li li a:hover::before{
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+.hov-pic:hover p{
+	color: black;
+}
+.hov-pic:hover img{
+	opacity: 0.2
+}
+.text-box{
+	font-size: 2.7rem;
+	line-height: 1;
+}
+
+.log-sm{
+	width: 20%
+}
+/* for menu burgar */
+@keyframes shake {
+	0%,100%{
+		transform: translateX(0);
+	}
+	10%,
+	30%,
+	50%,
+	70%{
+		transform: translateX(-10px);
+	}
+	80%{
+		transform: translateX(8px);
+	}
+	90%{
+		transform: translateX(-8px)
+	}
+}
+
+/* image icons */
+.ico .img:hover{
+	animation: scaleUp 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955 ) both;
+}
+@keyframes scaleUp{
+	0%{
+		transform: rotateY(0);
+	}
+	100%{
+		transform: rotateY(360deg);
+	}
+}
+
+/* copy right */
+.copy-right a:hover{
+	animation: textBlur 1.2s cubic-bezier(0.550, 0.085 ,0.680, 0.530) both;
+}
+@keyframes textBlur{
+	0%{
+		filter: blur(0.01);
+	}
+	90%{
+		filter: blur(12px) opacity(0%);
+	}
+	100%{
+		filter: blur(0.01);
+	}
+}
+
+/* image grid */
+/* .images .relative:hover{
+	animation: fadeOut 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+@keyframes fadeOut{
+	0%{
+		transform: translateZ(0);
+		opacity: 1;
+	}
+	100%{
+		transform: translateZ(80px);
+		opacity: 0.5;
+	}
+} */
