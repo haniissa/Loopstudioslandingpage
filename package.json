@@ -7,7 +7,7 @@
     "serve": "cross-env NODE_ENV=development concurrently \"postcss  src/css/style.css -o src/css/output.css --watch\"  \"live-server loopstudios-landing-page-main\"",
     "development": "cross-env NODE_ENV=development  postcss  src/css/style.css -o src/css/output.css ",
     "production": "cross-env NODE_ENV=production postcss src/css/style.css -o src/css/output.css",
-    "start": "npm run serve"
+    "start": "npm run production"
   },
   "author": "",
   "license": "ISC",
