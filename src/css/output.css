@@ -4234,7 +4234,7 @@ video {
 }
 
 .bg-hero-header{
-  background-image: url('images/desktop/image-hero.jpg');
+  background-image: url('../../images/desktop/image-hero.jpg');
 }
 
 .bg-interactive-vr{
@@ -35096,7 +35096,7 @@ video {
   }
 
   .ss\:bg-hero-header{
-    background-image: url('images/desktop/image-hero.jpg');
+    background-image: url('../../images/desktop/image-hero.jpg');
   }
 
   .ss\:bg-interactive-vr{
@@ -65714,7 +65714,7 @@ video {
   }
 
   .sm\:bg-hero-header{
-    background-image: url('images/desktop/image-hero.jpg');
+    background-image: url('../../images/desktop/image-hero.jpg');
   }
 
   .sm\:bg-interactive-vr{
@@ -96332,7 +96332,7 @@ video {
   }
 
   .md\:bg-hero-header{
-    background-image: url('images/desktop/image-hero.jpg');
+    background-image: url('../../images/desktop/image-hero.jpg');
   }
 
   .md\:bg-interactive-vr{
@@ -126950,7 +126950,7 @@ video {
   }
 
   .lg\:bg-hero-header{
-    background-image: url('images/desktop/image-hero.jpg');
+    background-image: url('../../images/desktop/image-hero.jpg');
   }
 
   .lg\:bg-interactive-vr{
@@ -157568,7 +157568,7 @@ video {
   }
 
   .xl\:bg-hero-header{
-    background-image: url('images/desktop/image-hero.jpg');
+    background-image: url('../../images/desktop/image-hero.jpg');
   }
 
   .xl\:bg-interactive-vr{
