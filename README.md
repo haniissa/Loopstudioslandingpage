@@ -6,7 +6,7 @@ This is a solution to the [Loopstudios landing page challenge on Frontend Mentor
 
 - [Overview](#overview)
   - [The challenge](https://www.frontendmentor.io/challenges/loopstudios-landing-page-N88J5Onjw/hub/loopstudios-landing-page-5XA_1YBIo)
-  - [Screenshot](#screenshot)
+  - [Screenshot](https://github.com/haniissa/Loopstudioslandingpage/blob/master/FrontendMentorLoopstudioslandingpage.png)
   <!-- - [Links](#links) -->
 <!-- - [My process](#my-process) -->
   - [Built with](#html-css-tailwindcss-js)
@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Screenshot
 
-![FrontendMentorLoopstudioslandingpage](./LoopstudiosLandingPage/loopstudios-landing-page-main/FrontendMentorLoopstudioslandingpage.jpg)
+![FrontendMentorLoopstudioslandingpage](https://github.com/haniissa/Loopstudioslandingpage/blob/master/FrontendMentorLoopstudioslandingpage.png)
 
 Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
@@ -59,7 +59,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - [Next.js](https://nextjs.org/) - React framework -->
 - [Styled Components](https://styled-components.com/) - For styles
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+
 
 <!-- ### What I learned
 

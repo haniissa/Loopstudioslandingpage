@@ -4,17 +4,19 @@ const cssnano = require("cssnano");
     plugins: [
         require("tailwindcss"),
         require("autoprefixer"),
-        cssnano({
-            preset: "default",
-        }),
+        ...(process.env.NODE_ENV === "production" ? [require("cssnano")] : []),
+
+        // cssnano({
+        //     preset: "default",
+        // }),
         purgecss({
             content: [
                 './*.html',
-                './src/**/*.js', 
+                './src/**/*.js',
                 './src/**/*.css',
                 "./src/**/*.jsx",
             ],
-            defaultExtractor: (content) => 
+            defaultExtractor: (content) =>
                 content.match(/[^<>"'`\s]*[^<>"'`\s:]/g) || [],
         }),
     ],
