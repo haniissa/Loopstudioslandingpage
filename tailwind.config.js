@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     extend: {
     	backgroundImage: theme => ({
-        'hero-header': "url('images/desktop/image-hero.jpg')",
+        'hero-header': "url('../../images/desktop/image-hero.jpg')",
         "interactive-vr":"url('images/desktop/image-interactive.jpg')",
         "curiosity":"url('images/desktop/image-curiosity.jpg')",
         "deep-earth":"url('images/desktop/image-deep-earth.jpg')",
